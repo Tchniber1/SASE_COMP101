@@ -1,0 +1,16 @@
+import numpy as np
+
+
+def gaussian_elimination(A, b):
+    """Solve A x = b using Gaussian elimination without pivoting.
+
+    Parameters
+    ----------
+    A : np.ndarray of shape (n, n)
+        Coefficient matrix.
+    b : np.ndarray of shape (n, 1)
+        Right-hand side column vector.
+    """
+    # TODO: implement forward elimination and back-substitution
+    # and return x as an (n, 1) array.
+    pass
