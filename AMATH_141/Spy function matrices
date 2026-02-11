@@ -11,7 +11,7 @@ for i in range(N):
             A[i, i+1] = 1
         if j == i-1:
             A[i, i-1] = -1
-plt.spy(A, markersize=5 , c='red')
+plt.spy(A, markersize=5 , c='purple')
 plt.show()
 # TODO: visualize with plt.spy(A, markersize=5)
 # and show the figure.
