@@ -34,5 +34,9 @@ def gaussian_elimination(A, b):
     return x
 x_gaussian = gaussian_elimination(A, b)
 print("Solution x from Gaussian elimination:\n", x_gaussian)
+comparison = np.allclose(x, x_gaussian,)
+print("Are the solutions from solve_system and Gaussian elimination close?", comparison)
+
 
     
+
